@@ -1,0 +1,46 @@
+# Rust
+target/
+Cargo.lock
+
+# Build artifacts
+build/
+dist/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Generated bindings
+android/
+ios/
+web/
+react-native/
+flutter/
+
+# Mopro generated files
+mopro-wasm-lib/
+
+# Node modules (if using web/RN)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Platform specific
+*.so
+*.dylib
+*.dll
