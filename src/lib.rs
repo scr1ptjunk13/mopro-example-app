@@ -32,9 +32,14 @@ mod noir_tests {
 
     #[test]
     #[serial]
-    fn test_addition_circuit() {
-        let circuit_path = "./test-vectors/noir/addition_circuit.json".to_string();
-        let circuit_inputs = vec!["10".to_string(), "5".to_string()];
+    fn test_poseidon_circuit() {
+        let circuit_path = "./test-vectors/noir/poseidon_circuit.json".to_string();
+        // zkETHer commitment inputs: amount, owner_pubkey, nonce
+        let circuit_inputs = vec![
+            "100000000000000000".to_string(), // 0.1 ETH in wei
+            "12345".to_string(),               // owner_pubkey
+            "67890".to_string()                // nonce
+        ];
         
         let vk = get_noir_verification_key(
             circuit_path.clone(),
