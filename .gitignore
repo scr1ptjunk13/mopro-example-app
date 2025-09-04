@@ -28,7 +28,7 @@ Thumbs.db
 android/
 ios/
 web/
-react-native/
+# react-native/
 flutter/
 
 # Mopro generated files
