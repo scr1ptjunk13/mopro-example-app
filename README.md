@@ -1,4 +1,4 @@
-# complete mopro setup guide for arch linux
+# complete mopro setup guide
 
 ## prerequisites installation
 
