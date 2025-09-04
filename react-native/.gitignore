@@ -1,0 +1,46 @@
+# dependencies
+node_modules/
+npm-debug.*
+yarn-debug.log*
+yarn-error.log*
+
+# expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# native builds
+/android/build/
+/ios/build/
+/ios
+
+# mopro specific
+modules/mopro/android/build/
+modules/mopro/android/.gradle/
+
+# certificates & keys
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# temporary files
+*.orig.*
+*.tmp
+*.log
+
+# os files
+.DS_Store
+Thumbs.db
+
+# ide
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# environment
+.env
+.env.local
